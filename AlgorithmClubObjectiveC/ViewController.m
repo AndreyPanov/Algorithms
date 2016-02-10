@@ -10,6 +10,7 @@
 
 #import "Stack.h"
 #import "Queue.h"
+#import "InsertionSort.h"
 
 @interface ViewController ()
 
@@ -22,6 +23,7 @@
     
     [self runStack];
     [self runQueue];
+    [self runInsertionSort];
 }
 
 - (void)runStack {
@@ -56,6 +58,14 @@
     while (!queue.isEmpty) {
         NSLog(@"%@", [queue dequeue]);
     }
+    NSLog(@"---------------------------------------");
+}
+
+- (void)runInsertionSort {
+    
+    NSMutableArray *array = [[NSMutableArray alloc] initWithObjects:[NSNumber numberWithInt:4], [NSNumber numberWithInt:5], [NSNumber numberWithInt:7], [NSNumber numberWithInt:4235], nil];
+    NSLog(@"Ascending %@", [InsertionSort insertionSort:array ascending:YES]);
+    NSLog(@"NOT Ascending %@", [InsertionSort insertionSort:array ascending:NO]);
     NSLog(@"---------------------------------------");
 }
 
