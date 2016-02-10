@@ -10,6 +10,6 @@
 
 @interface InsertionSort : NSObject
 
-+ (NSArray *)insertionSort:(NSMutableArray *)unsortedDataArray ascending:(BOOL)ascending;
++ (NSArray *)insertionSort:(NSMutableArray *)unsortedArray ascending:(BOOL)ascending;
 
 @end

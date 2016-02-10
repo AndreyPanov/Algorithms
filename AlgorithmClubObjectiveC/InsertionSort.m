@@ -16,18 +16,19 @@
 
 @implementation InsertionSort
 
-+ (NSArray *)insertionSort:(NSMutableArray *)unsortedDataArray ascending:(BOOL)ascending {
++ (NSArray *)insertionSort:(NSMutableArray *)unsortedArray ascending:(BOOL)ascending {
+    
     unsigned j;
-    for (unsigned i=1; i<unsortedDataArray.count;i++) {
+    for (unsigned i = 1; i < unsortedArray.count; i++) {
         
-        j=i;
-        while(j>0 && ([InsertionSort comparisonValue1:[[unsortedDataArray objectAtIndex:(j-1)] intValue] value2:[[unsortedDataArray objectAtIndex:j] intValue] ascending:ascending])) {
+        j = i;
+        while (j > 0 && [InsertionSort comparisonValue1:[unsortedArray[j-1] integerValue] value2:[unsortedArray[j] integerValue] ascending:ascending]) {
             
-            [unsortedDataArray exchangeObjectAtIndex:j withObjectAtIndex:(j-1)];
+            [unsortedArray exchangeObjectAtIndex:j withObjectAtIndex:(j-1)];
             j--;
         }
     }
-    return unsortedDataArray;
+    return unsortedArray;
 }
 
 +(BOOL)comparisonValue1:(NSUInteger)value1 value2:(NSUInteger)value2 ascending:(BOOL)ascending {
