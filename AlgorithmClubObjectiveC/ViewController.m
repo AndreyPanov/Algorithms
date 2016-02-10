@@ -11,6 +11,7 @@
 #import "Stack.h"
 #import "Queue.h"
 #import "InsertionSort.h"
+#import "BinarySearch.h"
 
 @interface ViewController ()
 
@@ -24,6 +25,7 @@
     [self runStack];
     [self runQueue];
     [self runInsertionSort];
+    [self runBinarySearch];
 }
 
 - (void)runStack {
@@ -66,6 +68,15 @@
     NSMutableArray *array = [[NSMutableArray alloc] initWithObjects:[NSNumber numberWithInt:4], [NSNumber numberWithInt:5], [NSNumber numberWithInt:7], [NSNumber numberWithInt:4235], nil];
     NSLog(@"Ascending %@", [InsertionSort insertionSort:array ascending:YES]);
     NSLog(@"NOT Ascending %@", [InsertionSort insertionSort:array ascending:NO]);
+    NSLog(@"---------------------------------------");
+}
+
+- (void)runBinarySearch {
+    
+    NSMutableArray *array = [[NSMutableArray alloc] initWithObjects:[NSNumber numberWithInt:4], [NSNumber numberWithInt:5], [NSNumber numberWithInt:7], [NSNumber numberWithInt:4235], nil];
+    NSArray *sorted = [NSArray arrayWithArray:[InsertionSort insertionSort:array ascending:YES]];
+    NSLog(@"Ascending %@", sorted);
+    NSLog(@"Find element 7, %i", [BinarySearch getIndexWithSortedArray:sorted element:7 range:NSMakeRange(0, sorted.count)]);
     NSLog(@"---------------------------------------");
 }
 
