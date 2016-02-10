@@ -10,6 +10,7 @@
 
 @interface BinarySearch : NSObject
 
-+(NSUInteger)getIndexWithSortedArray:(NSArray *)array element:(NSUInteger)element range:(NSRange)range;
++ (NSUInteger)getIndexWithSortedArray:(NSArray *)array element:(NSUInteger)element range:(NSRange)range;
++ (NSUInteger)getIndexWithSortedArray:(NSArray *)array element:(NSUInteger)element;
 
 @end
