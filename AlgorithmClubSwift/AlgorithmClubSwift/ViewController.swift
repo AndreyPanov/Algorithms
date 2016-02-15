@@ -12,14 +12,16 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        runMergeSort()
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    func runMergeSort() {
+        
+        let unsortedArray = [3, 56, 67, 5, 12, 55]
+        
+        print(mergeSort(unsortedArray))
     }
-
 
 }
 
