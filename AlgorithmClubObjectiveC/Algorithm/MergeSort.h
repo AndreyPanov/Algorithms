@@ -10,4 +10,6 @@
 
 @interface MergeSort : NSObject
 
++ (NSArray *)mergeSort:(NSArray *)array;
+
 @end

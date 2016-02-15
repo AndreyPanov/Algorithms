@@ -12,6 +12,7 @@
 #import "Queue.h"
 #import "InsertionSort.h"
 #import "BinarySearch.h"
+#import "MergeSort.h"
 
 @interface ViewController ()
 
@@ -21,11 +22,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+
     [self runStack];
     [self runQueue];
     [self runInsertionSort];
     [self runBinarySearch];
+    [self runMergeSort];
 }
 
 - (void)runStack {
@@ -78,6 +80,13 @@
     NSLog(@"Ascending %@", sorted);
     NSLog(@"Find element 7 with recursion, %i", [BinarySearch getIndexWithSortedArray:sorted element:7 range:NSMakeRange(0, sorted.count)]);
     NSLog(@"Find element 7 with while, %i", [BinarySearch getIndexWithSortedArray:sorted element:7]);
+    NSLog(@"---------------------------------------");
+}
+
+- (void)runMergeSort {
+    
+    NSMutableArray *array = [[NSMutableArray alloc] initWithObjects:[NSNumber numberWithInteger:4], [NSNumber numberWithInteger:5], [NSNumber numberWithInteger:7], [NSNumber numberWithInteger:4235], nil];
+    NSLog(@"%@", [MergeSort mergeSort:array]);
     NSLog(@"---------------------------------------");
 }
 

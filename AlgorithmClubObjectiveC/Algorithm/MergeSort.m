@@ -16,7 +16,7 @@
     
     NSUInteger middleIndex = array.count / 2;
     NSArray *leftArray = [MergeSort mergeSort:[array subarrayWithRange:NSMakeRange(0, middleIndex)]];
-    NSArray *rightArray = [MergeSort mergeSort:[array subarrayWithRange:NSMakeRange(middleIndex, array.count)]];
+    NSArray *rightArray = [MergeSort mergeSort:[array subarrayWithRange:NSMakeRange(middleIndex, array.count-middleIndex)]];
     
     return [MergeSort mergeWithLeftPile:leftArray rightPile:rightArray];
 }
@@ -29,8 +29,35 @@
     
     while (leftIndex < leftPile.count && rightIndex < rightPile.count) {
         
-        
+        if ([leftPile[leftIndex] integerValue] < [rightPile[rightIndex] integerValue]) {
+            
+            [orderedArray addObject:leftPile[leftIndex]];
+            leftIndex++;
+        } else if ([leftPile[leftIndex] integerValue] < [rightPile[rightIndex] integerValue]) {
+            
+            [orderedArray addObject:rightPile[rightIndex]];
+            rightIndex++;
+        } else {
+            
+            [orderedArray addObject:leftPile[leftIndex]];
+            leftIndex++;
+            [orderedArray addObject:rightPile[rightIndex]];
+            rightIndex++;
+        }
     }
+    
+    while (leftIndex < leftPile.count) {
+        
+        [orderedArray addObject:leftPile[leftIndex]];
+        leftIndex++;
+    }
+    
+    while (rightIndex < rightPile.count) {
+        
+        [orderedArray addObject:rightPile[rightIndex]];
+        rightIndex++;
+    }
+    return [NSArray arrayWithArray:orderedArray];
 }
 
 @end
