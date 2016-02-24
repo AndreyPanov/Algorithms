@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D54790921C763C9600AEEF2E /* NSString+IndexOfBruteForce.m in Sources */ = {isa = PBXBuildFile; fileRef = D54790911C763C9600AEEF2E /* NSString+IndexOfBruteForce.m */; };
 		D5567D921C6A4E8B002912D3 /* InsertionSort.m in Sources */ = {isa = PBXBuildFile; fileRef = D5567D911C6A4E8B002912D3 /* InsertionSort.m */; };
 		D5567DBE1C6B9D48002912D3 /* BinarySearch.m in Sources */ = {isa = PBXBuildFile; fileRef = D5567DBD1C6B9D48002912D3 /* BinarySearch.m */; };
 		D5B1876B1C6D063F0085D6E9 /* MergeSort.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B1876A1C6D063F0085D6E9 /* MergeSort.m */; };
@@ -32,6 +33,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D54790901C763C9600AEEF2E /* NSString+IndexOfBruteForce.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+IndexOfBruteForce.h"; path = "Algorithm/Search/NSString+IndexOfBruteForce.h"; sourceTree = "<group>"; };
+		D54790911C763C9600AEEF2E /* NSString+IndexOfBruteForce.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+IndexOfBruteForce.m"; path = "Algorithm/Search/NSString+IndexOfBruteForce.m"; sourceTree = "<group>"; };
 		D5567D901C6A4E8B002912D3 /* InsertionSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InsertionSort.h; sourceTree = "<group>"; };
 		D5567D911C6A4E8B002912D3 /* InsertionSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InsertionSort.m; sourceTree = "<group>"; };
 		D5567DBC1C6B9D48002912D3 /* BinarySearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BinarySearch.h; path = Algorithm/BinarySearch.h; sourceTree = "<group>"; };
@@ -75,6 +78,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D547908C1C763C0D00AEEF2E /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				D5567DBC1C6B9D48002912D3 /* BinarySearch.h */,
+				D5567DBD1C6B9D48002912D3 /* BinarySearch.m */,
+				D54790901C763C9600AEEF2E /* NSString+IndexOfBruteForce.h */,
+				D54790911C763C9600AEEF2E /* NSString+IndexOfBruteForce.m */,
+			);
+			name = Search;
+			sourceTree = "<group>";
+		};
 		D5CD80701C676D210001BC67 = {
 			isa = PBXGroup;
 			children = (
@@ -136,8 +150,7 @@
 				D5CD80A61C67773F0001BC67 /* Queue.m */,
 				D5567D901C6A4E8B002912D3 /* InsertionSort.h */,
 				D5567D911C6A4E8B002912D3 /* InsertionSort.m */,
-				D5567DBC1C6B9D48002912D3 /* BinarySearch.h */,
-				D5567DBD1C6B9D48002912D3 /* BinarySearch.m */,
+				D547908C1C763C0D00AEEF2E /* Search */,
 				D5B187691C6D063F0085D6E9 /* MergeSort.h */,
 				D5B1876A1C6D063F0085D6E9 /* MergeSort.m */,
 			);
@@ -244,6 +257,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D54790921C763C9600AEEF2E /* NSString+IndexOfBruteForce.m in Sources */,
 				D5CD80A71C67773F0001BC67 /* Queue.m in Sources */,
 				D5567DBE1C6B9D48002912D3 /* BinarySearch.m in Sources */,
 				D5567D921C6A4E8B002912D3 /* InsertionSort.m in Sources */,

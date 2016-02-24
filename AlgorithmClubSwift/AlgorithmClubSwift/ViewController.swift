@@ -14,6 +14,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         runMergeSort()
+        createLinkedList()
     }
     
     func runMergeSort() {
@@ -23,5 +24,22 @@ class ViewController: UIViewController {
         print(mergeSort(unsortedArray))
     }
 
+    func createLinkedList() {
+        
+        let linkedList = LinkedList<String>()
+        print(linkedList.first)
+        print(linkedList.isEmpty)
+        
+        linkedList.append("Cat1")
+        linkedList.append("Cat2")
+        linkedList.append("Cat3")
+        linkedList.append("Cat4")
+        linkedList.append("Cat5")
+        linkedList.append("Cat6")
+        print(linkedList.first!.value)
+        print(linkedList.isEmpty)
+        print(linkedList.count)
+        print(linkedList.nodeAtIndex(3)?.value)
+    }
 }
 

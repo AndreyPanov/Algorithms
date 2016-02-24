@@ -13,6 +13,7 @@
 		D541CB5F1C724ECA00CF6F7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D541CB5E1C724ECA00CF6F7C /* Assets.xcassets */; };
 		D541CB621C724ECA00CF6F7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D541CB601C724ECA00CF6F7C /* LaunchScreen.storyboard */; };
 		D541CB6A1C724F2000CF6F7C /* MergeSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = D541CB691C724F2000CF6F7C /* MergeSort.swift */; };
+		D58E0F4D1C7E25E200AD4F9A /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58E0F4C1C7E25E200AD4F9A /* LinkedList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		D541CB611C724ECA00CF6F7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D541CB631C724ECA00CF6F7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D541CB691C724F2000CF6F7C /* MergeSort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MergeSort.swift; path = Algorithms/MergeSort.swift; sourceTree = "<group>"; };
+		D58E0F4C1C7E25E200AD4F9A /* LinkedList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LinkedList.swift; path = Algorithms/LinkedList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				D541CB691C724F2000CF6F7C /* MergeSort.swift */,
+				D58E0F4C1C7E25E200AD4F9A /* LinkedList.swift */,
 			);
 			name = Algorithms;
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 			files = (
 				D541CB5A1C724ECA00CF6F7C /* ViewController.swift in Sources */,
 				D541CB6A1C724F2000CF6F7C /* MergeSort.swift in Sources */,
+				D58E0F4D1C7E25E200AD4F9A /* LinkedList.swift in Sources */,
 				D541CB581C724ECA00CF6F7C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,6 +300,7 @@
 				D541CB681C724ECA00CF6F7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -13,6 +13,7 @@
 #import "InsertionSort.h"
 #import "BinarySearch.h"
 #import "MergeSort.h"
+#import "NSString+IndexOfBruteForce.h"
 
 @interface ViewController ()
 
@@ -28,6 +29,7 @@
     [self runInsertionSort];
     [self runBinarySearch];
     [self runMergeSort];
+    [self runIndexOfBrute];
 }
 
 - (void)runStack {
@@ -87,6 +89,13 @@
     
     NSMutableArray *array = [[NSMutableArray alloc] initWithObjects:[NSNumber numberWithInteger:4], [NSNumber numberWithInteger:5], [NSNumber numberWithInteger:7], [NSNumber numberWithInteger:4235], nil];
     NSLog(@"%@", [MergeSort mergeSort:array]);
+    NSLog(@"---------------------------------------");
+}
+
+- (void)runIndexOfBrute {
+    
+    NSString *string = @"Hello world!";
+    NSLog(@"runIndexOfBrute %@", [string indexOf:@"world"]);
     NSLog(@"---------------------------------------");
 }
 

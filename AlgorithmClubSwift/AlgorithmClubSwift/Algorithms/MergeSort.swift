@@ -19,7 +19,7 @@ func mergeSort(unsortedArray: [Int]) -> [Int] {
     return mergeSortWithLeftPile(leftPile, rightPile: rightPile)
 }
 
-func mergeSortWithLeftPile(leftPile: [Int], rightPile: [Int]) -> [Int] {
+private func mergeSortWithLeftPile(leftPile: [Int], rightPile: [Int]) -> [Int] {
     
     var leftIndex = 0
     var rightIndex = 0
