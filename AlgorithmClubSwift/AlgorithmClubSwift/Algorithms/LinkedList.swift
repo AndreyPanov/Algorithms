@@ -86,4 +86,9 @@ class LinkedList<T> {
         }
         return nil
     }
+    
+    subscript(i: Int) -> T? {
+        return nodeAtIndex(i)?.value
+    }
+    
 }

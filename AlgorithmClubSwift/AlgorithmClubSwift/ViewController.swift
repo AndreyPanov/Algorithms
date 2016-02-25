@@ -40,6 +40,8 @@ class ViewController: UIViewController {
         print(linkedList.isEmpty)
         print(linkedList.count)
         print(linkedList.nodeAtIndex(3)?.value)
+        
+        print(linkedList[2])
     }
 }
 
