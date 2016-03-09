@@ -118,7 +118,11 @@ class LinkedList<T> {
             
             i = i.predecessor()
             prev = next
-            next = next!.next
+            if let nextNext = next?.next {
+                next = nextNext
+            } else {
+                return (nil, nil)
+            }
         }
         
         assert(i == 0)

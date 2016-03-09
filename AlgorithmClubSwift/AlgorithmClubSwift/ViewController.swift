@@ -36,6 +36,7 @@ class ViewController: UIViewController {
         linkedList.append("Cat4")
         linkedList.append("Cat5")
         linkedList.append("Cat6")
+        linkedList.nodesBeforeAndAfter(15)
         print(linkedList.first!.value)
         print(linkedList.isEmpty)
         print(linkedList.count)
