@@ -35,7 +35,7 @@ class LinkedList<T> {
     var last: Node? {
         
         if var node = head {
-            while case let next? = node.next {
+            while let next = node.next {
                 node = next
             }
             return node
@@ -91,4 +91,38 @@ class LinkedList<T> {
         return nodeAtIndex(i)?.value
     }
     
+    func removeNode(node: Node) {
+        
+        let next = node.next
+        let prev = node.previous
+        
+        if let prevUn = prev {
+            prevUn.next = next
+        } else {
+            head = next
+        }
+        next?.previous = prev
+        node.previous = nil
+        node.next = nil
+    }
+    
+    func nodesBeforeAndAfter(index: Int) -> (Node?, Node?) {
+        
+        assert(index >= 0)
+        
+        var i = index
+        var next = head
+        var prev: Node?
+        
+        while i > 0 && next != nil {
+            
+            i = i.predecessor()
+            prev = next
+            next = next!.next
+        }
+        
+        assert(i == 0)
+        
+        return (prev, next)
+    }
 }
