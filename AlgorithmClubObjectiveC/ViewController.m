@@ -13,6 +13,7 @@
 #import "InsertionSort.h"
 #import "BinarySearch.h"
 #import "MergeSort.h"
+#import "BoggleGame.h"
 #import "NSString+IndexOfBruteForce.h"
 
 @interface ViewController ()
@@ -30,6 +31,7 @@
     [self runBinarySearch];
     [self runMergeSort];
     [self runIndexOfBrute];
+    [self runBoggleGame];
 }
 
 - (void)runStack {
@@ -97,6 +99,11 @@
     NSString *string = @"Hello world!";
     NSLog(@"runIndexOfBrute %@", [string indexOf:@"world"]);
     NSLog(@"---------------------------------------");
+}
+
+- (void)runBoggleGame {
+    
+    BoggleGame *game = [[BoggleGame alloc] initWithWord:@"the" size:CGSizeMake(50, 50)];
 }
 
 @end

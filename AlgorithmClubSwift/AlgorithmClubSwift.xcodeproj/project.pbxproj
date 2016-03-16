@@ -15,6 +15,7 @@
 		D541CB621C724ECA00CF6F7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D541CB601C724ECA00CF6F7C /* LaunchScreen.storyboard */; };
 		D541CB6A1C724F2000CF6F7C /* MergeSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = D541CB691C724F2000CF6F7C /* MergeSort.swift */; };
 		D58E0F4D1C7E25E200AD4F9A /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58E0F4C1C7E25E200AD4F9A /* LinkedList.swift */; };
+		D5BB91D51C972B9A00116F42 /* Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BB91D41C972B9A00116F42 /* Tree.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		D541CB631C724ECA00CF6F7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D541CB691C724F2000CF6F7C /* MergeSort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MergeSort.swift; path = Algorithms/MergeSort.swift; sourceTree = "<group>"; };
 		D58E0F4C1C7E25E200AD4F9A /* LinkedList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LinkedList.swift; path = Algorithms/LinkedList.swift; sourceTree = "<group>"; };
+		D5BB91D41C972B9A00116F42 /* Tree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Tree.swift; path = Algorithms/Tree.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 				D541CB691C724F2000CF6F7C /* MergeSort.swift */,
 				D58E0F4C1C7E25E200AD4F9A /* LinkedList.swift */,
 				D52237221C9090F300C443F9 /* BitSet.swift */,
+				D5BB91D41C972B9A00116F42 /* Tree.swift */,
 			);
 			name = Algorithms;
 			sourceTree = "<group>";
@@ -155,6 +158,7 @@
 				D52237231C9090F300C443F9 /* BitSet.swift in Sources */,
 				D541CB5A1C724ECA00CF6F7C /* ViewController.swift in Sources */,
 				D541CB6A1C724F2000CF6F7C /* MergeSort.swift in Sources */,
+				D5BB91D51C972B9A00116F42 /* Tree.swift in Sources */,
 				D58E0F4D1C7E25E200AD4F9A /* LinkedList.swift in Sources */,
 				D541CB581C724ECA00CF6F7C /* AppDelegate.swift in Sources */,
 			);
