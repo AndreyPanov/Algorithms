@@ -3,6 +3,7 @@ import UIKit
 class Booggle {
     
     let col, row: Int
+    private var finded = false
     private(set) var board = [[Character]]()
     private var visited = [[Bool]]()
     let word: String
@@ -37,7 +38,9 @@ class Booggle {
         
         for (i, _) in board.enumerate() {
             for (j, _) in board[i].enumerate() {
-                if find(x: i, y: j, tmpWord: "", isStop: false) {
+                if !finded {
+                    find(x: i, y: j, tmpWord: "")
+                } else {
                     return
                 }
             }
@@ -45,47 +48,43 @@ class Booggle {
         print("Not!")
     }
     
-    final func find(x x: Int, y: Int, tmpWord: String, isStop: Bool) -> Bool {
+    final func find(x x: Int, y: Int, tmpWord: String) {
         
-        if x < 0 || y < 0 || x >= col || y >= row { return false }
+        if x < 0 || y < 0 || x >= col || y >= row { return }
         
-        if isStop { return false }
+        if finded { return }
         
         if visited[x][y] {
-            return false
+            return
         } else {
             visited[x][y] = true
-            //print("Visit x \(x) y \(y)")
+            print("Visit x \(x) y \(y), tmpWord:\(tmpWord)")
         }
-        var isStop = false
-        
         if tmpWord == word {
-            isStop = true
+            finded = true
             result(true)
-            return true
+            return
         }
         
         let index = word.startIndex.advancedBy(tmpWord.characters.count)
         let character = board[x][y]
         if character != word[index] {
-            return false
+            return
         }
         
         var newWord = tmpWord
         newWord.append(character)
-        find(x: x, y: y+1, tmpWord: newWord, isStop: isStop)
-        find(x: x, y: y-1, tmpWord: newWord, isStop: isStop)
+        find(x: x, y: y+1, tmpWord: newWord)
+        find(x: x, y: y-1, tmpWord: newWord)
         
-        find(x: x+1, y: y, tmpWord: newWord, isStop: isStop)
-        find(x: x-1, y: y, tmpWord: newWord, isStop: isStop)
+        find(x: x+1, y: y, tmpWord: newWord)
+        find(x: x-1, y: y, tmpWord: newWord)
         
-        find(x: x+1, y: y+1, tmpWord: newWord, isStop: isStop)
-        find(x: x-1, y: y-1, tmpWord: newWord, isStop: isStop)
+        find(x: x+1, y: y+1, tmpWord: newWord)
+        find(x: x-1, y: y-1, tmpWord: newWord)
         
-        find(x: x+1, y: y-1, tmpWord: newWord, isStop: isStop)
-        find(x: x-1, y: y+1, tmpWord: newWord, isStop: isStop)
-        
-        return false
+        find(x: x+1, y: y-1, tmpWord: newWord)
+        find(x: x-1, y: y+1, tmpWord: newWord)
     }
     
     func result(isFind: Bool) {
