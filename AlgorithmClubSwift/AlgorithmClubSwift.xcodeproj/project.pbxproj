@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0ECC79901CA1E25D0099F266 /* Boggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ECC798F1CA1E25D0099F266 /* Boggle.swift */; };
 		D52237231C9090F300C443F9 /* BitSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52237221C9090F300C443F9 /* BitSet.swift */; };
 		D541CB581C724ECA00CF6F7C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D541CB571C724ECA00CF6F7C /* AppDelegate.swift */; };
 		D541CB5A1C724ECA00CF6F7C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D541CB591C724ECA00CF6F7C /* ViewController.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0ECC798F1CA1E25D0099F266 /* Boggle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Boggle.swift; sourceTree = "<group>"; };
 		D52237221C9090F300C443F9 /* BitSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BitSet.swift; path = Algorithms/BitSet.swift; sourceTree = "<group>"; };
 		D541CB541C724ECA00CF6F7C /* AlgorithmClubSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlgorithmClubSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D541CB571C724ECA00CF6F7C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 				D58E0F4C1C7E25E200AD4F9A /* LinkedList.swift */,
 				D52237221C9090F300C443F9 /* BitSet.swift */,
 				D5BB91D41C972B9A00116F42 /* Tree.swift */,
+				0ECC798F1CA1E25D0099F266 /* Boggle.swift */,
 			);
 			name = Algorithms;
 			sourceTree = "<group>";
@@ -158,6 +161,7 @@
 				D52237231C9090F300C443F9 /* BitSet.swift in Sources */,
 				D541CB5A1C724ECA00CF6F7C /* ViewController.swift in Sources */,
 				D541CB6A1C724F2000CF6F7C /* MergeSort.swift in Sources */,
+				0ECC79901CA1E25D0099F266 /* Boggle.swift in Sources */,
 				D5BB91D51C972B9A00116F42 /* Tree.swift in Sources */,
 				D58E0F4D1C7E25E200AD4F9A /* LinkedList.swift in Sources */,
 				D541CB581C724ECA00CF6F7C /* AppDelegate.swift in Sources */,

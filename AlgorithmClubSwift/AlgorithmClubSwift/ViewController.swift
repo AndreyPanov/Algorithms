@@ -13,8 +13,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        runMergeSort()
-        createLinkedList()
+        //runMergeSort()
+        //createLinkedList()
+        boggleGame()
     }
     
     func runMergeSort() {
@@ -43,6 +44,13 @@ class ViewController: UIViewController {
         print(linkedList.nodeAtIndex(3)?.value)
         
         print(linkedList[2])
+    }
+    
+    func boggleGame() {
+        
+        let game = Booggle(x: 250, y: 250, word: "the")
+        game.buildBoard()
+        game.startSearch()
     }
 }
 
