@@ -36,6 +36,12 @@ class Tree {
         guard let nodeUnwrapped = node else { return 0 }
         return countNodes(nodeUnwrapped.left) + countNodes(nodeUnwrapped.right) + 1
     }
+    
+    func countLevels(node: Node<String>?) -> Int {
+        
+        guard let nodeUnwrapped = node else { return 0 }
+        return max(countLevels(nodeUnwrapped.left), countLevels(nodeUnwrapped.right)) + 1
+    }
 }
 
 /*
