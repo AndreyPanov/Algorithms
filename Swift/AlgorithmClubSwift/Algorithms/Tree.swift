@@ -6,8 +6,39 @@
 //  Copyright © 2016 Andrey Panov. All rights reserved.
 //
 
-import Foundation
+class Node<T> {
+    
+    var value: T
+    var left, right: Node?
+    
+    convenience init(value: T, left: Node?, right: Node?) {
+        
+        self.init(value: value)
+        self.left = left
+        self.right = right
+    }
+    
+    init(value: T) {
+        self.value = value
+    }
+}
 
+class Tree {
+    
+    var root: Node<String>
+    
+    init(root: Node<String>) {
+        self.root = root
+    }
+    
+    func countNodes(node: Node<String>?) -> Int {
+        
+        guard let nodeUnwrapped = node else { return 0 }
+        return countNodes(nodeUnwrapped.left) + countNodes(nodeUnwrapped.right) + 1
+    }
+}
+
+/*
 class TreeNode<T> {
     
     var value: T
@@ -47,4 +78,4 @@ extension TreeNode: CustomStringConvertible {
         }
         return s
     }
-}
+}*/
