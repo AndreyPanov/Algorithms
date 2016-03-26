@@ -2,7 +2,7 @@
 
 import UIKit
 
-class Node<T> {
+class Node<T: Comparable> {
     
     var value: T
     var left, right: Node?
@@ -19,24 +19,65 @@ class Node<T> {
     }
 }
 
-class Tree {
+class Tree<T: Comparable> {
     
-    var root: Node<Int>
+    var root: Node<T>
     
-    init(root: Node<Int>) {
+    init(root: Node<T>) {
         self.root = root
     }
     
-    func countNodes(node: Node<Int>?) -> Int {
+    func countNodes(node: Node<T>?) -> Int {
         
-        guard let nodeUnwrapped = node else { return 0 }
-        return countNodes(nodeUnwrapped.left) + countNodes(nodeUnwrapped.right) + 1
+        guard let nodeUW = node else { return 0 }
+        return countNodes(nodeUW.left) + countNodes(nodeUW.right) + 1
     }
     
-    func countLevels(node: Node<Int>?) -> Int {
+    func countLevels(node: Node<T>?) -> Int {
         
-        guard let nodeUnwrapped = node else { return 0 }
-        return max(countLevels(nodeUnwrapped.left), countLevels(nodeUnwrapped.right)) + 1
+        guard let nodeUW = node else { return 0 }
+        return max(countLevels(nodeUW.left), countLevels(nodeUW.right)) + 1
+    }
+    
+    var found = false
+    func BST_Search(node: Node<T>?, value: T) {
+        
+        guard let nodeUW = node else { return }
+        if found { return }
+        
+        if nodeUW.value == value {
+            found = true
+            print(nodeUW)
+            return
+        }
+        if nodeUW.value < value {
+            BST_Search(nodeUW.left, value: value)
+        } else if nodeUW.value > value {
+            BST_Search(nodeUW.right, value: value)
+        }
+    }
+    
+    func BST_Insert(node: Node<T>?, value: T) {
+        
+        guard let nodeUW = node else {
+            root = Node(value: value)
+            return
+        }
+        if nodeUW.value == value { return }
+        
+        if nodeUW.value < value {
+            if nodeUW.left != nil {
+                BST_Insert(nodeUW.left, value: value)
+            } else {
+                nodeUW.left = Node(value: value)
+            }
+        } else if nodeUW.value > value {
+            if nodeUW.right != nil {
+                BST_Insert(nodeUW.right, value: value)
+            } else {
+                nodeUW.right = Node(value: value)
+            }
+        }
     }
 }
 
@@ -54,4 +95,5 @@ let node0 = Node(value: 0, left: node1, right: node2)
 let tree = Tree(root: node0)
 tree.countNodes(tree.root)
 tree.countLevels(tree.root)
+tree.BST_Search(tree.root, value: 7)
 
