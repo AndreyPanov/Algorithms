@@ -56,6 +56,22 @@ class Tree<T: Comparable> {
             BST_Search(nodeUW.right, value: value)
         }
     }
+    func BST_SearchInterative(node: Node<T>?, value: T) {
+        guard let nodeUW = node else { return }
+        var tmpNode: Node<T>? = nodeUW
+        
+        while (tmpNode != nil || tmpNode?.value == value) {
+            print(tmpNode?.value)
+            if value < tmpNode?.value {
+                tmpNode = tmpNode?.left
+            } else {
+                tmpNode = tmpNode?.right
+            }
+        }
+        if tmpNode != nil {
+            print(tmpNode!)
+        }
+    }
     
     func BST_Insert(node: Node<T>?, value: T) {
         
@@ -92,12 +108,12 @@ class Tree<T: Comparable> {
         queue.enqueue(nodeUW)
         while queue.isEmpty() == false {
             
-            let node = queue.dequeue()
-            print(node!.value)
-            if let left = node?.left {
+            let root = queue.dequeue()
+            print(root!.value)
+            if let left = root?.left {
                 queue.enqueue(left)
             }
-            if let right = node?.right {
+            if let right = root?.right {
                 queue.enqueue(right)
             }
         }

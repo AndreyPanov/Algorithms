@@ -68,10 +68,11 @@ class ViewController: UIViewController {
         let tree = Tree(root: root)
         //tree.countNodes(tree.root)
         //tree.countLevels(tree.root)
-        //tree.BST_Search(tree.root, value: 7)
-        tree.inOrderTreeWalk(tree.root)
-        print("-----------------------")
-        tree.inOrderTreeWalkNoRec(tree.root)
+        tree.BST_Search(tree.root, value: 7)
+        tree.BST_SearchInterative(tree.root, value: 7)
+        //tree.inOrderTreeWalk(tree.root)
+        //print("-----------------------")
+        //tree.inOrderTreeWalkNoRec(tree.root)
     }
 }
 
