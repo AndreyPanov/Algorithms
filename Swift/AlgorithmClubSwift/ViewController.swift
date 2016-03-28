@@ -70,6 +70,8 @@ class ViewController: UIViewController {
         //tree.countLevels(tree.root)
         //tree.BST_Search(tree.root, value: 7)
         tree.inOrderTreeWalk(tree.root)
+        print("-----------------------")
+        tree.inOrderTreeWalkNoRec(tree.root)
     }
 }
 

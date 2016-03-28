@@ -85,6 +85,23 @@ class Tree<T: Comparable> {
         print(nodeUW.value)
         inOrderTreeWalk(nodeUW.right)
     }
+    func  inOrderTreeWalkNoRec(node: Node<T>?) {
+        guard let nodeUW = node else { return }
+        
+        let queue = Queue<Node<T>>()
+        queue.enqueue(nodeUW)
+        while queue.isEmpty() == false {
+            
+            let node = queue.dequeue()
+            print(node!.value)
+            if let left = node?.left {
+                queue.enqueue(left)
+            }
+            if let right = node?.right {
+                queue.enqueue(right)
+            }
+        }
+    }
 }
 
 /*
