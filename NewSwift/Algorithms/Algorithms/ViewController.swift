@@ -1,25 +1,12 @@
-//
-//  ViewController.swift
-//  Algorithms
-//
-//  Created by Андрей on 04.12.17.
-//  Copyright © 2017 Andrey Panov. All rights reserved.
-//
-
 import UIKit
 
 class ViewController: UIViewController {
 
   override func viewDidLoad() {
     super.viewDidLoad()
-    // Do any additional setup after loading the view, typically from a nib.
+    let array = [0, 6, 78, 4, 7, 23, 56, 6]
+    let sortModule = MergeSort()
+    print(sortModule.sort(array: array))
   }
-
-  override func didReceiveMemoryWarning() {
-    super.didReceiveMemoryWarning()
-    // Dispose of any resources that can be recreated.
-  }
-
-
 }
 
