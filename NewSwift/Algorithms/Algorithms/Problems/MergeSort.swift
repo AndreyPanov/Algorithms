@@ -23,25 +23,25 @@ class MergeSort {
     while leftCount < left.count && rightCount < right.count {
       if left[leftCount] > right[rightCount] {
         result.append(right[rightCount])
-        rightCount = rightCount + 1
+        rightCount += 1
       } else if left[leftCount] < right[rightCount] {
         result.append(left[leftCount])
-        leftCount = leftCount + 1
+        leftCount += 1
       } else {
         result.append(right[rightCount])
-        rightCount = rightCount + 1
+        rightCount += 1
         result.append(left[leftCount])
-        leftCount = leftCount + 1
+        leftCount += 1
       }
     }
     
     while leftCount < left.count {
       result.append(left[leftCount])
-      leftCount = leftCount + 1
+      leftCount += 1
     }
     while rightCount < right.count {
       result.append(right[rightCount])
-      rightCount = rightCount + 1
+      rightCount += 1
     }
     return result
   }
