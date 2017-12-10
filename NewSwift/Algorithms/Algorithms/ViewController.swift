@@ -14,8 +14,10 @@ class ViewController: UIViewController {
     print(karatsuba.multiplay(value1: num1, value2: num2))
     */
     let array1 = [10, 6, 78, 4, 7, 23, 56, 60]
-    let sortInsertModule = InsertSort()
-    print(sortInsertModule.sort(array: array1))
+    //let sortInsertModule = InsertSort()
+    //print(sortInsertModule.sort(array: array1))
+    let inversion = CountInversion()
+    print(inversion.inversion(array: array1) ?? "no pairs")
   }
 }
 

@@ -15,6 +15,7 @@
 		77309D7A1FD5E6AA00FD40A5 /* MergeSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77309D791FD5E6AA00FD40A5 /* MergeSort.swift */; };
 		AD3CB4E71FD72D7D002F18D7 /* Karatsuba.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3CB4E61FD72D7D002F18D7 /* Karatsuba.swift */; };
 		AD3CB4E91FD84BE0002F18D7 /* InsertSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3CB4E81FD84BE0002F18D7 /* InsertSort.swift */; };
+		ADE97A4A1FDDA15A007FB30B /* CountInversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE97A491FDDA15A007FB30B /* CountInversion.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		77309D791FD5E6AA00FD40A5 /* MergeSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSort.swift; sourceTree = "<group>"; };
 		AD3CB4E61FD72D7D002F18D7 /* Karatsuba.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Karatsuba.swift; sourceTree = "<group>"; };
 		AD3CB4E81FD84BE0002F18D7 /* InsertSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertSort.swift; sourceTree = "<group>"; };
+		ADE97A491FDDA15A007FB30B /* CountInversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountInversion.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 			isa = PBXGroup;
 			children = (
 				77309D791FD5E6AA00FD40A5 /* MergeSort.swift */,
+				ADE97A491FDDA15A007FB30B /* CountInversion.swift */,
 				AD3CB4E81FD84BE0002F18D7 /* InsertSort.swift */,
 				AD3CB4E61FD72D7D002F18D7 /* Karatsuba.swift */,
 			);
@@ -154,6 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD3CB4E91FD84BE0002F18D7 /* InsertSort.swift in Sources */,
+				ADE97A4A1FDDA15A007FB30B /* CountInversion.swift in Sources */,
 				AD3CB4E71FD72D7D002F18D7 /* Karatsuba.swift in Sources */,
 				77309D7A1FD5E6AA00FD40A5 /* MergeSort.swift in Sources */,
 				77309D691FD5E69100FD40A5 /* ViewController.swift in Sources */,
