@@ -15,6 +15,7 @@
 		77309D7A1FD5E6AA00FD40A5 /* MergeSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77309D791FD5E6AA00FD40A5 /* MergeSort.swift */; };
 		AD3CB4E71FD72D7D002F18D7 /* Karatsuba.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3CB4E61FD72D7D002F18D7 /* Karatsuba.swift */; };
 		AD3CB4E91FD84BE0002F18D7 /* InsertSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3CB4E81FD84BE0002F18D7 /* InsertSort.swift */; };
+		ADCA52E51FDFD838007772F7 /* MatrixMultiplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCA52E41FDFD838007772F7 /* MatrixMultiplication.swift */; };
 		ADE97A4A1FDDA15A007FB30B /* CountInversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE97A491FDDA15A007FB30B /* CountInversion.swift */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +30,7 @@
 		77309D791FD5E6AA00FD40A5 /* MergeSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSort.swift; sourceTree = "<group>"; };
 		AD3CB4E61FD72D7D002F18D7 /* Karatsuba.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Karatsuba.swift; sourceTree = "<group>"; };
 		AD3CB4E81FD84BE0002F18D7 /* InsertSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertSort.swift; sourceTree = "<group>"; };
+		ADCA52E41FDFD838007772F7 /* MatrixMultiplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatrixMultiplication.swift; sourceTree = "<group>"; };
 		ADE97A491FDDA15A007FB30B /* CountInversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountInversion.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -80,6 +82,7 @@
 				ADE97A491FDDA15A007FB30B /* CountInversion.swift */,
 				AD3CB4E81FD84BE0002F18D7 /* InsertSort.swift */,
 				AD3CB4E61FD72D7D002F18D7 /* Karatsuba.swift */,
+				ADCA52E41FDFD838007772F7 /* MatrixMultiplication.swift */,
 			);
 			path = Problems;
 			sourceTree = "<group>";
@@ -160,6 +163,7 @@
 				ADE97A4A1FDDA15A007FB30B /* CountInversion.swift in Sources */,
 				AD3CB4E71FD72D7D002F18D7 /* Karatsuba.swift in Sources */,
 				77309D7A1FD5E6AA00FD40A5 /* MergeSort.swift in Sources */,
+				ADCA52E51FDFD838007772F7 /* MatrixMultiplication.swift in Sources */,
 				77309D691FD5E69100FD40A5 /* ViewController.swift in Sources */,
 				77309D671FD5E69100FD40A5 /* AppDelegate.swift in Sources */,
 			);

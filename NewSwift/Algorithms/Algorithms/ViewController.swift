@@ -18,6 +18,7 @@ class ViewController: UIViewController {
     //print(sortInsertModule.sort(array: array1))
     let inversion = CountInversion()
     print(inversion.inversion(array: array1) ?? "no pairs")
+    
   }
 }
 
