@@ -12,7 +12,7 @@ import Foundation
  93  2 54
  67 11 87
  */
-
+/*
 let first = [[1, 12, 34], [23, 2, 4], [67, 1, 87]]
 let second = [[1, 32, 74], [93, 2, 54], [67, 11, 87]]
 
@@ -51,4 +51,4 @@ class MatrixMultiplication {
     }
     return true
   }
-}
+}*/
