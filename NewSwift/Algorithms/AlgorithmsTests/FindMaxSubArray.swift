@@ -8,6 +8,12 @@ class FindMaxSubArray: XCTestCase {
     XCTAssertEqual(43, findMaxSum(with: array))
   }
   
+  func testArrayBruteForce() {
+    let array = [13, -3, -25, 20, -3, -16, -23, 18, 20, -7, 12, -5, -22, 15, -4, 7]
+    
+    XCTAssertEqual(43, bruteForce(with: array))
+  }
+  
   func findMaxSum(with array: [Int]) -> Int {
     let (_, _, sum) = findMaxSubArray(with: array, low: 0, high: array.count-1)
     return sum
@@ -57,5 +63,23 @@ class FindMaxSubArray: XCTestCase {
       j += 1
     }
     return (maxLeft, maxRight, leftSum+rightSum)
+  }
+  
+  func bruteForce(with array: [Int]) -> Int {
+    var maxSum = 0
+    var i = 0
+    while i < array.count {
+      var j = i
+      var sum = 0
+      while j < array.count {
+        sum = sum + array[j]
+        if sum > maxSum {
+          maxSum = sum
+        }
+        j += 1
+      }
+      i += 1
+    }
+    return maxSum
   }
 }
