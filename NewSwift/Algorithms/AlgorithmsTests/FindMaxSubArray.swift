@@ -20,7 +20,7 @@ class FindMaxSubArray: XCTestCase {
   }
   
   func findMaxSubArray(with array: [Int], low: Int, high: Int) -> (low: Int, high: Int, sum: Int) {
-    guard high == low else { return (low, high, array[low]) }
+    guard high != low else { return (low, high, array[low]) }
     
     let mid = (low + high)/2
     let (leftLow, leftHigh, leftSum) = findMaxSubArray(with: array, low: low, high: mid)
@@ -62,11 +62,11 @@ class FindMaxSubArray: XCTestCase {
       }
       j += 1
     }
-    return (maxLeft, maxRight, leftSum+rightSum)
+    return (maxLeft, maxRight, (leftSum == Int.min || rightSum == Int.min) ? Int.min : leftSum+rightSum)
   }
   
   func bruteForce(with array: [Int]) -> Int {
-    var maxSum = 0
+    var maxSum = Int.min
     var i = 0
     while i < array.count {
       var j = i
