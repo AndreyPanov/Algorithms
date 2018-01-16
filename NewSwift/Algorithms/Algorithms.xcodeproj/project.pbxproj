@@ -14,11 +14,17 @@
 		77309D711FD5E69100FD40A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77309D6F1FD5E69100FD40A5 /* LaunchScreen.storyboard */; };
 		77309D7A1FD5E6AA00FD40A5 /* MergeSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77309D791FD5E6AA00FD40A5 /* MergeSort.swift */; };
 		77FCED3B1FE99EC500A9CA30 /* FindMaxSubArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77FCED3A1FE99EC500A9CA30 /* FindMaxSubArray.swift */; };
+		AD12EF172007D69E00A67313 /* BinaryConvert.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD12EF162007D69E00A67313 /* BinaryConvert.swift */; };
+		AD12EF192007DB3800A67313 /* AllFactors.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD12EF182007DB3800A67313 /* AllFactors.swift */; };
+		AD157148200AB7E9002A674D /* PrimeSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD157147200AB7E9002A674D /* PrimeSum.swift */; };
 		AD3CB4E71FD72D7D002F18D7 /* Karatsuba.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3CB4E61FD72D7D002F18D7 /* Karatsuba.swift */; };
 		AD3CB4E91FD84BE0002F18D7 /* InsertSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3CB4E81FD84BE0002F18D7 /* InsertSort.swift */; };
+		AD7A25AD20092F10007B22DE /* PrimeNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7A25AC20092F10007B22DE /* PrimeNumber.swift */; };
+		AD97327E200B60ED007A65C6 /* ExcelColumnNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD97327D200B60ED007A65C6 /* ExcelColumnNumber.swift */; };
 		ADB98BDE1FE449C000A9123D /* AlgorithmsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB98BDD1FE449C000A9123D /* AlgorithmsTests.swift */; };
 		ADB98BE61FE449EF00A9123D /* Day11_2DArrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB98BE51FE449EF00A9123D /* Day11_2DArrays.swift */; };
 		ADCA52E51FDFD838007772F7 /* MatrixMultiplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCA52E41FDFD838007772F7 /* MatrixMultiplication.swift */; };
+		ADE423801FEEAD0D00BF4D8A /* MatrixMultiplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE4237F1FEEAD0D00BF4D8A /* MatrixMultiplication.swift */; };
 		ADE97A4A1FDDA15A007FB30B /* CountInversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE97A491FDDA15A007FB30B /* CountInversion.swift */; };
 /* End PBXBuildFile section */
 
@@ -42,13 +48,19 @@
 		77309D721FD5E69100FD40A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		77309D791FD5E6AA00FD40A5 /* MergeSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSort.swift; sourceTree = "<group>"; };
 		77FCED3A1FE99EC500A9CA30 /* FindMaxSubArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindMaxSubArray.swift; sourceTree = "<group>"; };
+		AD12EF162007D69E00A67313 /* BinaryConvert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryConvert.swift; sourceTree = "<group>"; };
+		AD12EF182007DB3800A67313 /* AllFactors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllFactors.swift; sourceTree = "<group>"; };
+		AD157147200AB7E9002A674D /* PrimeSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimeSum.swift; sourceTree = "<group>"; };
 		AD3CB4E61FD72D7D002F18D7 /* Karatsuba.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Karatsuba.swift; sourceTree = "<group>"; };
 		AD3CB4E81FD84BE0002F18D7 /* InsertSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertSort.swift; sourceTree = "<group>"; };
+		AD7A25AC20092F10007B22DE /* PrimeNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimeNumber.swift; sourceTree = "<group>"; };
+		AD97327D200B60ED007A65C6 /* ExcelColumnNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExcelColumnNumber.swift; sourceTree = "<group>"; };
 		ADB98BDB1FE449C000A9123D /* AlgorithmsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlgorithmsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADB98BDD1FE449C000A9123D /* AlgorithmsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmsTests.swift; sourceTree = "<group>"; };
 		ADB98BDF1FE449C000A9123D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ADB98BE51FE449EF00A9123D /* Day11_2DArrays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day11_2DArrays.swift; sourceTree = "<group>"; };
 		ADCA52E41FDFD838007772F7 /* MatrixMultiplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatrixMultiplication.swift; sourceTree = "<group>"; };
+		ADE4237F1FEEAD0D00BF4D8A /* MatrixMultiplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatrixMultiplication.swift; sourceTree = "<group>"; };
 		ADE97A491FDDA15A007FB30B /* CountInversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountInversion.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -120,6 +132,12 @@
 				ADB98BDD1FE449C000A9123D /* AlgorithmsTests.swift */,
 				ADB98BE51FE449EF00A9123D /* Day11_2DArrays.swift */,
 				77FCED3A1FE99EC500A9CA30 /* FindMaxSubArray.swift */,
+				ADE4237F1FEEAD0D00BF4D8A /* MatrixMultiplication.swift */,
+				AD12EF162007D69E00A67313 /* BinaryConvert.swift */,
+				AD12EF182007DB3800A67313 /* AllFactors.swift */,
+				AD7A25AC20092F10007B22DE /* PrimeNumber.swift */,
+				AD157147200AB7E9002A674D /* PrimeSum.swift */,
+				AD97327D200B60ED007A65C6 /* ExcelColumnNumber.swift */,
 				ADB98BDF1FE449C000A9123D /* Info.plist */,
 			);
 			path = AlgorithmsTests;
@@ -242,9 +260,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD7A25AD20092F10007B22DE /* PrimeNumber.swift in Sources */,
+				ADE423801FEEAD0D00BF4D8A /* MatrixMultiplication.swift in Sources */,
+				AD12EF172007D69E00A67313 /* BinaryConvert.swift in Sources */,
+				AD157148200AB7E9002A674D /* PrimeSum.swift in Sources */,
+				AD12EF192007DB3800A67313 /* AllFactors.swift in Sources */,
 				ADB98BE61FE449EF00A9123D /* Day11_2DArrays.swift in Sources */,
 				77FCED3B1FE99EC500A9CA30 /* FindMaxSubArray.swift in Sources */,
 				ADB98BDE1FE449C000A9123D /* AlgorithmsTests.swift in Sources */,
+				AD97327E200B60ED007A65C6 /* ExcelColumnNumber.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
