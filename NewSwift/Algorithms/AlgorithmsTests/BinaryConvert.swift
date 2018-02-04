@@ -14,6 +14,10 @@ class BinaryConvert: XCTestCase {
     XCTAssertEqual("0", convertToBinary(number: 0))
   }
   
+  func testBinary2() {
+    XCTAssertEqual("10", convertToBinary(number: 2))
+  }
+  
   func convertToBinary(number: Int) -> String {
     guard number > 0 else { return "0" }
     var result = ""

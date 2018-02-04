@@ -19,8 +19,12 @@
 		AD157148200AB7E9002A674D /* PrimeSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD157147200AB7E9002A674D /* PrimeSum.swift */; };
 		AD3CB4E71FD72D7D002F18D7 /* Karatsuba.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3CB4E61FD72D7D002F18D7 /* Karatsuba.swift */; };
 		AD3CB4E91FD84BE0002F18D7 /* InsertSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3CB4E81FD84BE0002F18D7 /* InsertSort.swift */; };
+		AD669FBF200F73BF007447DE /* PowerOfTwoIntegers.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD669FBE200F73BF007447DE /* PowerOfTwoIntegers.swift */; };
+		AD669FC1200F9465007447DE /* FizzBuzz.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD669FC0200F9465007447DE /* FizzBuzz.swift */; };
+		AD669FC3200FB1A2007447DE /* HammingDistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD669FC2200FB1A2007447DE /* HammingDistance.swift */; };
 		AD7A25AD20092F10007B22DE /* PrimeNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7A25AC20092F10007B22DE /* PrimeNumber.swift */; };
 		AD97327E200B60ED007A65C6 /* ExcelColumnNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD97327D200B60ED007A65C6 /* ExcelColumnNumber.swift */; };
+		ADA8DCD2201B535700EFB359 /* BraceStringBalance.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA8DCD1201B535700EFB359 /* BraceStringBalance.swift */; };
 		ADB98BDE1FE449C000A9123D /* AlgorithmsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB98BDD1FE449C000A9123D /* AlgorithmsTests.swift */; };
 		ADB98BE61FE449EF00A9123D /* Day11_2DArrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB98BE51FE449EF00A9123D /* Day11_2DArrays.swift */; };
 		ADCA52E51FDFD838007772F7 /* MatrixMultiplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCA52E41FDFD838007772F7 /* MatrixMultiplication.swift */; };
@@ -53,8 +57,12 @@
 		AD157147200AB7E9002A674D /* PrimeSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimeSum.swift; sourceTree = "<group>"; };
 		AD3CB4E61FD72D7D002F18D7 /* Karatsuba.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Karatsuba.swift; sourceTree = "<group>"; };
 		AD3CB4E81FD84BE0002F18D7 /* InsertSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertSort.swift; sourceTree = "<group>"; };
+		AD669FBE200F73BF007447DE /* PowerOfTwoIntegers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerOfTwoIntegers.swift; sourceTree = "<group>"; };
+		AD669FC0200F9465007447DE /* FizzBuzz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizzBuzz.swift; sourceTree = "<group>"; };
+		AD669FC2200FB1A2007447DE /* HammingDistance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HammingDistance.swift; sourceTree = "<group>"; };
 		AD7A25AC20092F10007B22DE /* PrimeNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimeNumber.swift; sourceTree = "<group>"; };
 		AD97327D200B60ED007A65C6 /* ExcelColumnNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExcelColumnNumber.swift; sourceTree = "<group>"; };
+		ADA8DCD1201B535700EFB359 /* BraceStringBalance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BraceStringBalance.swift; sourceTree = "<group>"; };
 		ADB98BDB1FE449C000A9123D /* AlgorithmsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlgorithmsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADB98BDD1FE449C000A9123D /* AlgorithmsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmsTests.swift; sourceTree = "<group>"; };
 		ADB98BDF1FE449C000A9123D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -138,6 +146,10 @@
 				AD7A25AC20092F10007B22DE /* PrimeNumber.swift */,
 				AD157147200AB7E9002A674D /* PrimeSum.swift */,
 				AD97327D200B60ED007A65C6 /* ExcelColumnNumber.swift */,
+				AD669FBE200F73BF007447DE /* PowerOfTwoIntegers.swift */,
+				AD669FC0200F9465007447DE /* FizzBuzz.swift */,
+				AD669FC2200FB1A2007447DE /* HammingDistance.swift */,
+				ADA8DCD1201B535700EFB359 /* BraceStringBalance.swift */,
 				ADB98BDF1FE449C000A9123D /* Info.plist */,
 			);
 			path = AlgorithmsTests;
@@ -265,7 +277,11 @@
 				AD12EF172007D69E00A67313 /* BinaryConvert.swift in Sources */,
 				AD157148200AB7E9002A674D /* PrimeSum.swift in Sources */,
 				AD12EF192007DB3800A67313 /* AllFactors.swift in Sources */,
+				ADA8DCD2201B535700EFB359 /* BraceStringBalance.swift in Sources */,
 				ADB98BE61FE449EF00A9123D /* Day11_2DArrays.swift in Sources */,
+				AD669FBF200F73BF007447DE /* PowerOfTwoIntegers.swift in Sources */,
+				AD669FC1200F9465007447DE /* FizzBuzz.swift in Sources */,
+				AD669FC3200FB1A2007447DE /* HammingDistance.swift in Sources */,
 				77FCED3B1FE99EC500A9CA30 /* FindMaxSubArray.swift in Sources */,
 				ADB98BDE1FE449C000A9123D /* AlgorithmsTests.swift in Sources */,
 				AD97327E200B60ED007A65C6 /* ExcelColumnNumber.swift in Sources */,
