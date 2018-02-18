@@ -20,8 +20,7 @@ class NobleInteger: XCTestCase {
     // 2 3 5 6
     var index = array.count-1
     while index >= 0 {
-      if index < array.count-1 && array[index] == array[index+1] {}
-      else if array[index] == array.count-1-index {
+      if array[index] == array.count-1-index {
         return 1
       }
       index -= 1
