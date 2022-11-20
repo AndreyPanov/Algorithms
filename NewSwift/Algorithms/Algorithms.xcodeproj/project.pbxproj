@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E98308E292AA8B100D04812 /* BinarySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E98308D292AA8B100D04812 /* BinarySearch.swift */; };
 		7719BDD42028E5C40005B14C /* UniqCharString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7719BDD32028E5C40005B14C /* UniqCharString.swift */; };
 		7719BDD62028ED730005B14C /* StringPermutation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7719BDD52028ED730005B14C /* StringPermutation.swift */; };
 		77309D671FD5E69100FD40A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77309D661FD5E69100FD40A5 /* AppDelegate.swift */; };
@@ -55,6 +56,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E98308D292AA8B100D04812 /* BinarySearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearch.swift; sourceTree = "<group>"; };
 		7719BDD32028E5C40005B14C /* UniqCharString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniqCharString.swift; sourceTree = "<group>"; };
 		7719BDD52028ED730005B14C /* StringPermutation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringPermutation.swift; sourceTree = "<group>"; };
 		77309D631FD5E69100FD40A5 /* Algorithms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Algorithms.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -114,6 +116,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E98308C292AA6C800D04812 /* Before 2022 */ = {
+			isa = PBXGroup;
+			children = (
+				ADB98BDD1FE449C000A9123D /* AlgorithmsTests.swift */,
+				ADB98BE51FE449EF00A9123D /* Day11_2DArrays.swift */,
+				77FCED3A1FE99EC500A9CA30 /* FindMaxSubArray.swift */,
+				ADE4237F1FEEAD0D00BF4D8A /* MatrixMultiplication.swift */,
+				AD12EF162007D69E00A67313 /* BinaryConvert.swift */,
+				AD12EF182007DB3800A67313 /* AllFactors.swift */,
+				AD7A25AC20092F10007B22DE /* PrimeNumber.swift */,
+				AD157147200AB7E9002A674D /* PrimeSum.swift */,
+				AD97327D200B60ED007A65C6 /* ExcelColumnNumber.swift */,
+				AD669FBE200F73BF007447DE /* PowerOfTwoIntegers.swift */,
+				AD669FC0200F9465007447DE /* FizzBuzz.swift */,
+				AD669FC2200FB1A2007447DE /* HammingDistance.swift */,
+				ADA8DCD1201B535700EFB359 /* BraceStringBalance.swift */,
+				7719BDD32028E5C40005B14C /* UniqCharString.swift */,
+				7719BDD52028ED730005B14C /* StringPermutation.swift */,
+				77C56CAA2034BCDB00DDC4D5 /* MinStepsinInfiniteGrid.swift */,
+				ADFD96CC20385C7200C2F588 /* PlusOne.swift */,
+				ADFD96CE2038888B00C2F588 /* MaxNonNegativeSubArray.swift */,
+				ADFD96D02038B0DC00C2F588 /* NobleInteger.swift */,
+				AD0EFD942039659E00985BDF /* WaveArray.swift */,
+				AD0EFD962039CAE900985BDF /* LargestNumber.swift */,
+				AD0EFD982039EE8800985BDF /* GridUniquePaths.swift */,
+				AD0EFD9A2039F64200985BDF /* MaximumAbsoluteDifference.swift */,
+				AD199610203B427F003663BC /* AntiDiagonals.swift */,
+			);
+			path = "Before 2022";
+			sourceTree = "<group>";
+		};
 		77309D5A1FD5E69100FD40A5 = {
 			isa = PBXGroup;
 			children = (
@@ -170,30 +203,8 @@
 			isa = PBXGroup;
 			children = (
 				AD056FFB205EC4120029B45C /* Data structures */,
-				ADB98BDD1FE449C000A9123D /* AlgorithmsTests.swift */,
-				ADB98BE51FE449EF00A9123D /* Day11_2DArrays.swift */,
-				77FCED3A1FE99EC500A9CA30 /* FindMaxSubArray.swift */,
-				ADE4237F1FEEAD0D00BF4D8A /* MatrixMultiplication.swift */,
-				AD12EF162007D69E00A67313 /* BinaryConvert.swift */,
-				AD12EF182007DB3800A67313 /* AllFactors.swift */,
-				AD7A25AC20092F10007B22DE /* PrimeNumber.swift */,
-				AD157147200AB7E9002A674D /* PrimeSum.swift */,
-				AD97327D200B60ED007A65C6 /* ExcelColumnNumber.swift */,
-				AD669FBE200F73BF007447DE /* PowerOfTwoIntegers.swift */,
-				AD669FC0200F9465007447DE /* FizzBuzz.swift */,
-				AD669FC2200FB1A2007447DE /* HammingDistance.swift */,
-				ADA8DCD1201B535700EFB359 /* BraceStringBalance.swift */,
-				7719BDD32028E5C40005B14C /* UniqCharString.swift */,
-				7719BDD52028ED730005B14C /* StringPermutation.swift */,
-				77C56CAA2034BCDB00DDC4D5 /* MinStepsinInfiniteGrid.swift */,
-				ADFD96CC20385C7200C2F588 /* PlusOne.swift */,
-				ADFD96CE2038888B00C2F588 /* MaxNonNegativeSubArray.swift */,
-				ADFD96D02038B0DC00C2F588 /* NobleInteger.swift */,
-				AD0EFD942039659E00985BDF /* WaveArray.swift */,
-				AD0EFD962039CAE900985BDF /* LargestNumber.swift */,
-				AD0EFD982039EE8800985BDF /* GridUniquePaths.swift */,
-				AD0EFD9A2039F64200985BDF /* MaximumAbsoluteDifference.swift */,
-				AD199610203B427F003663BC /* AntiDiagonals.swift */,
+				0E98308C292AA6C800D04812 /* Before 2022 */,
+				0E98308D292AA8B100D04812 /* BinarySearch.swift */,
 				ADB98BDF1FE449C000A9123D /* Info.plist */,
 			);
 			path = AlgorithmsTests;
@@ -244,15 +255,17 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0910;
+				LastUpgradeCheck = 1410;
 				ORGANIZATIONNAME = "Andrey Panov";
 				TargetAttributes = {
 					77309D621FD5E69100FD40A5 = {
 						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = "";
 						ProvisioningStyle = Automatic;
 					};
 					ADB98BDA1FE449C000A9123D = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = "";
 						ProvisioningStyle = Automatic;
 						TestTargetID = 77309D621FD5E69100FD40A5;
 					};
@@ -335,6 +348,7 @@
 				AD0EFD9B2039F64200985BDF /* MaximumAbsoluteDifference.swift in Sources */,
 				AD0EFD972039CAE900985BDF /* LargestNumber.swift in Sources */,
 				AD0EFD992039EE8800985BDF /* GridUniquePaths.swift in Sources */,
+				0E98308E292AA8B100D04812 /* BinarySearch.swift in Sources */,
 				7719BDD42028E5C40005B14C /* UniqCharString.swift in Sources */,
 				ADFD96D12038B0DC00C2F588 /* NobleInteger.swift in Sources */,
 				77FCED3B1FE99EC500A9CA30 /* FindMaxSubArray.swift in Sources */,
@@ -388,6 +402,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -395,8 +410,10 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -422,7 +439,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -445,6 +462,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -452,8 +470,10 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -473,7 +493,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -491,7 +511,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.panovdev.Algorithms;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -506,7 +526,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.panovdev.Algorithms;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -517,11 +537,11 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = AlgorithmsTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.panov.AlgorithmsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Algorithms.app/Algorithms";
 			};
@@ -533,11 +553,11 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = AlgorithmsTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.panov.AlgorithmsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Algorithms.app/Algorithms";
 			};
