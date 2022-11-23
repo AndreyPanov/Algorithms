@@ -11,6 +11,7 @@
 		0E983090292AB5C700D04812 /* FirstBadVersion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E98308F292AB5C700D04812 /* FirstBadVersion.swift */; };
 		0E983092292C078800D04812 /* SearchInsertPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E983091292C078800D04812 /* SearchInsertPosition.swift */; };
 		0E983094292D557300D04812 /* SquaresOfSortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E983093292D557300D04812 /* SquaresOfSortedArray.swift */; };
+		0E983096292D585900D04812 /* RotateArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E983095292D585900D04812 /* RotateArray.swift */; };
 		7719BDD42028E5C40005B14C /* UniqCharString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7719BDD32028E5C40005B14C /* UniqCharString.swift */; };
 		7719BDD62028ED730005B14C /* StringPermutation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7719BDD52028ED730005B14C /* StringPermutation.swift */; };
 		77309D671FD5E69100FD40A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77309D661FD5E69100FD40A5 /* AppDelegate.swift */; };
@@ -63,6 +64,7 @@
 		0E98308F292AB5C700D04812 /* FirstBadVersion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstBadVersion.swift; sourceTree = "<group>"; };
 		0E983091292C078800D04812 /* SearchInsertPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchInsertPosition.swift; sourceTree = "<group>"; };
 		0E983093292D557300D04812 /* SquaresOfSortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquaresOfSortedArray.swift; sourceTree = "<group>"; };
+		0E983095292D585900D04812 /* RotateArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotateArray.swift; sourceTree = "<group>"; };
 		7719BDD32028E5C40005B14C /* UniqCharString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniqCharString.swift; sourceTree = "<group>"; };
 		7719BDD52028ED730005B14C /* StringPermutation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringPermutation.swift; sourceTree = "<group>"; };
 		77309D631FD5E69100FD40A5 /* Algorithms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Algorithms.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -214,6 +216,7 @@
 				0E98308F292AB5C700D04812 /* FirstBadVersion.swift */,
 				0E983091292C078800D04812 /* SearchInsertPosition.swift */,
 				0E983093292D557300D04812 /* SquaresOfSortedArray.swift */,
+				0E983095292D585900D04812 /* RotateArray.swift */,
 				ADB98BDF1FE449C000A9123D /* Info.plist */,
 			);
 			path = AlgorithmsTests;
@@ -365,6 +368,7 @@
 				ADFD96D12038B0DC00C2F588 /* NobleInteger.swift in Sources */,
 				77FCED3B1FE99EC500A9CA30 /* FindMaxSubArray.swift in Sources */,
 				ADB98BDE1FE449C000A9123D /* AlgorithmsTests.swift in Sources */,
+				0E983096292D585900D04812 /* RotateArray.swift in Sources */,
 				ADFD96CD20385C7200C2F588 /* PlusOne.swift in Sources */,
 				AD97327E200B60ED007A65C6 /* ExcelColumnNumber.swift in Sources */,
 			);
