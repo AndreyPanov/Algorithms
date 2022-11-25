@@ -11,6 +11,15 @@ final class ReverseString: XCTestCase {
     }
     
     func reverseString(_ s: inout [Character]) {
-        
+        var right = s.count-1
+        var left = 0
+        while right > left {
+            let temp = s[left]
+            s[left] = s[right]
+            s[right] = temp
+            right -= 1
+            left += 1
+        }
     }
 }
+
