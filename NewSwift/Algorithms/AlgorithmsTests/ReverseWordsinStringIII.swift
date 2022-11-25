@@ -9,6 +9,20 @@ final class ReverseWordsinStringIII: XCTestCase {
     }
     
     func reverseWords(_ s: String) -> String {
-        return ""
+        return s.components(separatedBy: " ").map { reverseString($0) }.joined(separator: " ")
+    }
+    
+    private func reverseString(_ s: String) -> String {
+        var s = Array(s)
+        var right = s.count-1
+        var left = 0
+        while right > left {
+            let temp = s[left]
+            s[left] = s[right]
+            s[right] = temp
+            right -= 1
+            left += 1
+        }
+        return String(s)
     }
 }
