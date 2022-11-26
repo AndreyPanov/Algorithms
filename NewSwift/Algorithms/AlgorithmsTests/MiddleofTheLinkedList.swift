@@ -19,9 +19,22 @@ final class MiddleofTheLinkedList: XCTestCase {
     }
     
     func middleNode(_ head: ListNode?) -> ListNode? {
-        guard let head = head else { return nil }
+        guard var node = head else { return nil }
         
-        return head
+        var count = 0
+        while node.next != nil {
+            node = node.next!
+            count += 1
+        }
+        let middle = Int(ceil(Double(count)/2))
+        
+        var temp = 0
+        var midNode = head
+        while temp < middle {
+            midNode = midNode!.next!
+            temp += 1
+        }
+        return midNode
     }
     
     public class ListNode: Equatable {
