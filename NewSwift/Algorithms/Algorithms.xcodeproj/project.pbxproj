@@ -17,6 +17,7 @@
 		0E98309C2931490A00D04812 /* ReverseString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E98309B2931490A00D04812 /* ReverseString.swift */; };
 		0E98309E2931503F00D04812 /* ReverseWordsinStringIII.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E98309D2931503F00D04812 /* ReverseWordsinStringIII.swift */; };
 		0E9830A02931E47900D04812 /* MiddleofTheLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E98309F2931E47900D04812 /* MiddleofTheLinkedList.swift */; };
+		0E9830A22931F0F300D04812 /* RemoveNthNodeFromEndOfList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9830A12931F0F300D04812 /* RemoveNthNodeFromEndOfList.swift */; };
 		7719BDD42028E5C40005B14C /* UniqCharString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7719BDD32028E5C40005B14C /* UniqCharString.swift */; };
 		7719BDD62028ED730005B14C /* StringPermutation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7719BDD52028ED730005B14C /* StringPermutation.swift */; };
 		77309D671FD5E69100FD40A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77309D661FD5E69100FD40A5 /* AppDelegate.swift */; };
@@ -75,6 +76,7 @@
 		0E98309B2931490A00D04812 /* ReverseString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseString.swift; sourceTree = "<group>"; };
 		0E98309D2931503F00D04812 /* ReverseWordsinStringIII.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseWordsinStringIII.swift; sourceTree = "<group>"; };
 		0E98309F2931E47900D04812 /* MiddleofTheLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiddleofTheLinkedList.swift; sourceTree = "<group>"; };
+		0E9830A12931F0F300D04812 /* RemoveNthNodeFromEndOfList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveNthNodeFromEndOfList.swift; sourceTree = "<group>"; };
 		7719BDD32028E5C40005B14C /* UniqCharString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniqCharString.swift; sourceTree = "<group>"; };
 		7719BDD52028ED730005B14C /* StringPermutation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringPermutation.swift; sourceTree = "<group>"; };
 		77309D631FD5E69100FD40A5 /* Algorithms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Algorithms.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -232,6 +234,7 @@
 				0E98309B2931490A00D04812 /* ReverseString.swift */,
 				0E98309D2931503F00D04812 /* ReverseWordsinStringIII.swift */,
 				0E98309F2931E47900D04812 /* MiddleofTheLinkedList.swift */,
+				0E9830A12931F0F300D04812 /* RemoveNthNodeFromEndOfList.swift */,
 				ADB98BDF1FE449C000A9123D /* Info.plist */,
 			);
 			path = AlgorithmsTests;
@@ -371,6 +374,7 @@
 				AD056FFF205EC83A0029B45C /* LinkedListTest.swift in Sources */,
 				AD669FBF200F73BF007447DE /* PowerOfTwoIntegers.swift in Sources */,
 				AD669FC1200F9465007447DE /* FizzBuzz.swift in Sources */,
+				0E9830A22931F0F300D04812 /* RemoveNthNodeFromEndOfList.swift in Sources */,
 				0E983090292AB5C700D04812 /* FirstBadVersion.swift in Sources */,
 				AD669FC3200FB1A2007447DE /* HammingDistance.swift in Sources */,
 				AD199611203B427F003663BC /* AntiDiagonals.swift in Sources */,
