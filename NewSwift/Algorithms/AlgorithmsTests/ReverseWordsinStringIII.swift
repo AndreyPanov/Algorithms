@@ -9,7 +9,7 @@ final class ReverseWordsinStringIII: XCTestCase {
     }
     
     func reverseWords(_ s: String) -> String {
-        return s.components(separatedBy: " ").map { reverseString($0) }.joined(separator: " ")
+        return s.components(separatedBy: " ").map { String($0.reversed()) }.joined(separator: " ")
     }
     
     private func reverseString(_ s: String) -> String {
