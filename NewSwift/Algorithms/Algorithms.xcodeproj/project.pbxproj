@@ -22,6 +22,7 @@
 		0E9830A62933C39700D04812 /* PermutationInString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9830A52933C39700D04812 /* PermutationInString.swift */; };
 		0ECB695F293BA9C500C20C8F /* FloodFill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ECB695E293BA9C500C20C8F /* FloodFill.swift */; };
 		0ECB6961293BB8FF00C20C8F /* MaxAreaOfIsland.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ECB6960293BB8FF00C20C8F /* MaxAreaOfIsland.swift */; };
+		0ECB6963293CE98700C20C8F /* MergeTwoBinaryTrees.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ECB6962293CE98700C20C8F /* MergeTwoBinaryTrees.swift */; };
 		7719BDD42028E5C40005B14C /* UniqCharString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7719BDD32028E5C40005B14C /* UniqCharString.swift */; };
 		7719BDD62028ED730005B14C /* StringPermutation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7719BDD52028ED730005B14C /* StringPermutation.swift */; };
 		77309D671FD5E69100FD40A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77309D661FD5E69100FD40A5 /* AppDelegate.swift */; };
@@ -85,6 +86,7 @@
 		0E9830A52933C39700D04812 /* PermutationInString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermutationInString.swift; sourceTree = "<group>"; };
 		0ECB695E293BA9C500C20C8F /* FloodFill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloodFill.swift; sourceTree = "<group>"; };
 		0ECB6960293BB8FF00C20C8F /* MaxAreaOfIsland.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxAreaOfIsland.swift; sourceTree = "<group>"; };
+		0ECB6962293CE98700C20C8F /* MergeTwoBinaryTrees.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeTwoBinaryTrees.swift; sourceTree = "<group>"; };
 		7719BDD32028E5C40005B14C /* UniqCharString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniqCharString.swift; sourceTree = "<group>"; };
 		7719BDD52028ED730005B14C /* StringPermutation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringPermutation.swift; sourceTree = "<group>"; };
 		77309D631FD5E69100FD40A5 /* Algorithms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Algorithms.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -247,6 +249,7 @@
 				0E9830A52933C39700D04812 /* PermutationInString.swift */,
 				0ECB695E293BA9C500C20C8F /* FloodFill.swift */,
 				0ECB6960293BB8FF00C20C8F /* MaxAreaOfIsland.swift */,
+				0ECB6962293CE98700C20C8F /* MergeTwoBinaryTrees.swift */,
 				ADB98BDF1FE449C000A9123D /* Info.plist */,
 			);
 			path = AlgorithmsTests;
@@ -388,6 +391,7 @@
 				AD056FFF205EC83A0029B45C /* LinkedListTest.swift in Sources */,
 				AD669FBF200F73BF007447DE /* PowerOfTwoIntegers.swift in Sources */,
 				AD669FC1200F9465007447DE /* FizzBuzz.swift in Sources */,
+				0ECB6963293CE98700C20C8F /* MergeTwoBinaryTrees.swift in Sources */,
 				0E9830A22931F0F300D04812 /* RemoveNthNodeFromEndOfList.swift in Sources */,
 				0E9830A429328AF100D04812 /* LongestSubstringWithoutRepeatingCharacters.swift in Sources */,
 				0ECB6961293BB8FF00C20C8F /* MaxAreaOfIsland.swift in Sources */,
